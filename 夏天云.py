@@ -26,6 +26,7 @@ response = requests.post(url, headers=headers)
 # 输出结果
 if response.status_code == 200:
     print("签到成功：", response.json())
-else:
-    print("签到失败，状态码：", response.status_code)
-    print("返回内容：", response.text)
+#else:
+#    print("签到失败，状态码：", response.status_code)
+#    print("返回内容：", response.text)
+
