@@ -1,7 +1,7 @@
-import requests
+#import requests
 
 # API URL
-url = "https://alma.fengchiyx.xyz/api/v1/user/checkin"
+#url = "https://alma.fengchiyx.xyz/api/v1/user/checkin"
 
 # 请求头
 #headers = {
@@ -21,13 +21,14 @@ url = "https://alma.fengchiyx.xyz/api/v1/user/checkin"
 #}
 
 # 发送 POST 请求
-response = requests.post(url, headers=headers)
+#response = requests.post(url, headers=headers)
 
 # 输出结果
-if response.status_code == 200:
+#if response.status_code == 200:
     print("签到成功：", response.json())
 #else:
 #    print("签到失败，状态码：", response.status_code)
 #    print("返回内容：", response.text)
+
 
 
